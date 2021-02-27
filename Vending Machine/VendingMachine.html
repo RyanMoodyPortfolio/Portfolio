@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Ryan's Vending Machine</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="VendingMachine.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<script src="VendingMachine.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<h1>Ryan's Vending Machine</h1>
+			<div class="row">
+				<div class="col-sm-1" id="leftPad"></div>
+				<div class="col-sm-2" id="firstProduct">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<p class="productName">Chocolate</p>
+							<img src="images/chocolate.png" alt="Chocolate" />
+							<p class="productPrice">£0.70</p>
+							<button type="button" class="btn btn-primary" onclick="onBuy('chocolate', 70)">Buy</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-2" id="secondProduct">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<p class="productName">Lemonade</p>
+							<img src="images/lemonade.png" alt="Lemonade" />
+							<p class="productPrice">£1.20</p>
+							<button type="button" class="btn btn-primary" onclick="onBuy('lemonade', 120)">Buy</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6" id="vendingInterface">
+					<div class="panel panel-default">
+						<div class="panel-body">							
+							<form class="form-horizontal">
+								<div class="form-group">
+									<label class="col-sm-2 control-label">Message</label>
+									<div class="col-sm-10">
+										<input class="form-control" id="message" type="text" value="Please insert coin(s) and make a selection" readonly="readonly" />
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-2 control-label">Inserted</label>
+									<div class="col-sm-10">
+										<input class="form-control" id="insertedAmount" type="text" value="£0.00" readonly="readonly" />
+									</div>
+								</div>
+							</form>
+							<br />
+							<button type="button" class="btn btn-primary" onclick="onInsertOnePoundCoin()">Insert £1 Coin</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-1" id="rightPad"></div>
+			</div>
+		</div>
+	</body>
+</html>

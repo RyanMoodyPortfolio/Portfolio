@@ -1,0 +1,29 @@
+* {
+	text-align: center;	
+}
+
+#firstProduct, #secondProduct, #vendingInterface {
+  padding-top: 20px;
+  background-color: #666666;
+} 
+
+#vendingInterface {
+  padding-top: 20px;
+  background-color: #a0bd79;
+} 
+
+
+.productName {
+	font-size: 20px;
+}
+
+.productPrice {
+	font-size: 30px;
+	color: #33824e;
+}
+
+.form-control {
+	font-weight: bold;
+	font-size: 16px;
+	color: #FF0000;
+}
