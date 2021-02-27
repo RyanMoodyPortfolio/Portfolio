@@ -1,0 +1,9 @@
+<!ELEMENT flowchart (node*)>
+<!ELEMENT node (decision*)>
+<!ELEMENT decision EMPTY>
+
+<!ATTLIST node ID CDATA #REQUIRED>
+<!ATTLIST node information CDATA #REQUIRED>
+
+<!ATTLIST decision IDreference CDATA #REQUIRED>
+<!ATTLIST decision description CDATA #REQUIRED>

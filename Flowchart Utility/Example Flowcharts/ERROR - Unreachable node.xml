@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!DOCTYPE flowchart SYSTEM "flowchart.dtd">
+
+<flowchart>
+	<node ID="start" information="" />
+	<node ID="X" information="" />
+</flowchart>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE flowchart SYSTEM "flowchart.dtd">
+
+<flowchart>
+	<node ID="start" information="You are lost in a jungle, it is starting to get dark, and you need to find shelter. You see a clearing in the forest, a nearby stream and a tall, old tree. What will you do?">
+		<decision IDreference="1" description="Enter the forest clearing" />
+		<decision IDreference="2" description="Follow the stream" />
+		<decision IDreference="3" description="Climb the tree" />
+	</node>
+	<node ID="1" information="You enter the forest clearing. You can see some wolves nearby that have made this clearing their home - yet there is no shelter here for you. What will you do?">
+		<decision IDreference="4" description="Calmly walk past the wolves in search of shelter" />
+		<decision IDreference="5" description="Hide in some bushes until the wolves go away" />
+	</node>
+	<node ID="2" information="As darkness falls, you run along the stream. The stream is quite wide, but you can see some shelter on the other side of it. What will you do?">
+		<decision IDreference="6" description="Swim across the stream" />
+		<decision IDreference="7" description="Continue to run along the stream" />
+	</node>
+	<node ID="3" information="You start to climb the tree, hoping to get a better view of where shelter might be, but lose your footing and plummet to the ground. GAME OVER." />
+	<node ID="4" information="The hungry wolves approach you and turn you into their supper. GAME OVER." />
+	<node ID="5" information="You hide in the bushes and wait for some time, but the wolves have remained in the clearing and started to move towards the bushes. What will you do?">
+		<decision IDreference="8" description="Ambush the wolves then run to safety" />
+		<decision IDreference="4" description="Continue to hide in the bushes until the wolves go away" />
+	</node>
+	<node ID="6" information="As you approach the bank of the stream, you slip and fall in. Worse still, you discover that the stream is full of crocodiles. GAME OVER." />
+	<node ID="7" information="You continue along the stream. It has become narrower, and you see some stepping stones that could be used to cross the stream. What will you do?">
+		<decision IDreference="6" description="Use the stepping stones to cross the stream" />
+		<decision IDreference="8" description="Continue to run along the stream" />
+	</node>
+	<node ID="8" information="You manage to run to a quiet area of the forest. Night has fallen. You can see a campfire burning brightly, and can just make out the entrance to a cave. What will you do?">
+		<decision IDreference="9" description="Approach the campfire" />
+		<decision IDreference="10" description="Take shelter in the cave" />
+		<decision IDreference="11" description="Wait until dawn to get a better idea of your surroundings" />
+	</node>
+	<node ID="9" information="You approach the campfire. Unfortunately, it belongs to a hostile tribe that kills trespassers. GAME OVER." />
+	<node ID="10" information="The cave is dry, empty, and an ideal shelter. You are safe tonight, but you are still lost in the jungle...THE END." />
+	<node ID="11" information="As you wait for dawn, it starts to rain, and now it is too late to find shelter. You literally freeze to death. GAME OVER." />
+</flowchart>

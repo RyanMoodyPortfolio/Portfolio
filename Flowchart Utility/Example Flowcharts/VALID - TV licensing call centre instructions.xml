@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE flowchart SYSTEM "flowchart.dtd">
+
+<flowchart>
+	<node ID="start" information="Start of TV licensing call centre instructions: What does the customer want to do?">
+		<decision IDreference="purchase licence" description="Purchase a licence" />
+		<decision IDreference="direct debit" description="Setup a Direct Debit" />
+		<decision IDreference="change details" description="Change their account details" />
+	</node>
+	<node ID="purchase licence" information="What type of licence do they wish to purchase?">
+		<decision IDreference="colour" description="Colour" />
+		<decision IDreference="black and white" description="Black and white" />
+	</node>
+	<node ID="colour" information="Process payment for a colour TV licence" />
+	<node ID="black and white" information="Process payment for a black and white TV licence" />
+	<node ID="direct debit" information="How often would the customer like payments to be debited?">
+		<decision IDreference="monthly" description="Monthly" />
+		<decision IDreference="annually" description="Annually" />
+	</node>
+	<node ID="monthly" information="Setup a monthly Direct Debit for the customer" />
+	<node ID="annually" information="Setup an annual Direct Debit for the customer" />
+	<node ID="change details" information="Update the customer's account with their new account details" />
+</flowchart>
