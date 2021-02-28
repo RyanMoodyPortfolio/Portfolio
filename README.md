@@ -73,4 +73,4 @@ The output of the automated test suite can be seen below:
 
 ![Automated Test Suite Output](/images/VendingMachine2.png)
 
-_Note - the [chocolate](https://publicdomainvectors.org/en/free-clipart/Chocolate-candy/78781.html) and [lemonade](https://publicdomainvectors.org/en/free-clipart/Vector-drawing-of-lemonade-in-glass/3960.html) images are public domain_
+_Note - the [chocolate](https://publicdomainvectors.org/en/free-clipart/Chocolate-candy/78781.html) and [lemonade](https://publicdomainvectors.org/en/free-clipart/Vector-drawing-of-lemonade-in-glass/3960.html) images are public domain._
