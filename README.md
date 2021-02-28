@@ -12,8 +12,8 @@ Here are my portfolio projects that demonstrate my skills in manual and automate
 * Report Writing
  
 **Links:**
-* [Source code and example flowcharts](https://github.com/RyanMoodyPortfolio/Portfolio/tree/main/FlowchartUtility)
 * [Read the report here](https://github.com/RyanMoodyPortfolio/Portfolio/raw/main/FlowchartUtility/FlowchartUtility.doc)
+* [Source code and example flowcharts](https://github.com/RyanMoodyPortfolio/Portfolio/tree/main/FlowchartUtility)
  
 During the 1980s and 1990s, “Choose Your Own Adventure” (CYOA) books were very popular. Unlike traditional books which are linearly read from start to finish, CYOA books allow you to decide how the story progresses by reading pages in a non-consecutive order. An example of a page from a CYOA book is shown below:
 
