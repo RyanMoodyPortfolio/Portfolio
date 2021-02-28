@@ -1,4 +1,4 @@
-Here are Ryan Moody's personal portfolio projects that demonstrate my skills in manual and automated testing.
+Here are my portfolio projects that demonstrate my skills in manual and automated testing.
 
 # Project 1 - Flowchart Utility
 
@@ -29,3 +29,25 @@ This project aims to create a GUI that can be used to read a CYOA book. This wil
 *	Implementing the GUI which allows the user to read these models of CYOA books.
 *	Confirming that the GUI functions as required through test cases.
 *	Exploring the flexibility of the GUI and how it could be applied to real scenarios.
+
+# Project 2 - Vending Machine
+
+![Vending Machine](/images/VendingMachine1.png)
+
+**Skills demonstrated:**
+* HTML
+* Bootstrap
+* CSS
+* JavaScript
+* Python
+* Pylint
+* PyCharm
+* Selenium WebDriver
+* Automated Testing
+* Functional Testing
+ 
+**Links:**
+* [Play with the Vending Machine here](https://ryanmoodyportfolio.github.io/Portfolio/VendingMachine/VendingMachine.html)
+* [Source Code and Automated Test Suite](https://github.com/RyanMoodyPortfolio/Portfolio/tree/main/VendingMachine)
+ 
+TBD
