@@ -29,3 +29,5 @@ This project aims to create a GUI that can be used to read a CYOA book. This wil
 *	Implementing the GUI which allows the user to read these models of CYOA books.
 *	Confirming that the GUI functions as required through test cases.
 *	Exploring the flexibility of the GUI and how it could be applied to real scenarios.
+
+[test](Vending%20Machine/VendingMachine.html)
