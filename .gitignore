@@ -6,3 +6,4 @@ VendingMachine/AutomatedTests/__pycache__/logger.cpython-37.pyc
 VendingMachine/AutomatedTests/__pycache__/test_suite.cpython-37-pytest-6.2.2.pyc
 VendingMachine/AutomatedTests/__pycache__/vending_machine.cpython-37.pyc
 VendingMachine/AutomatedTests/__pycache__/web_interface.cpython-37.pyc
+VendingMachine/AutomatedTests/geckodriver.log
