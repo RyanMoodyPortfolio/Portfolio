@@ -12,8 +12,8 @@ Here are Ryan Moody's personal portfolio projects that demonstrate my skills in 
 * Report Writing
  
 **Links:**
-* [Source code and example flowcharts](https://github.com/RyanMoodyPortfolio/Portfolio/tree/main/Flowchart%20Utility)
-* [Read the report here](https://github.com/RyanMoodyPortfolio/Portfolio/raw/main/Flowchart%20Utility/Flowchart%20Utility.doc)
+* [Source code and example flowcharts](https://github.com/RyanMoodyPortfolio/Portfolio/tree/main/FlowchartUtility)
+* [Read the report here](https://github.com/RyanMoodyPortfolio/Portfolio/raw/main/FlowchartUtility/FlowchartUtility.doc)
  
 During the 1980s and 1990s, “Choose Your Own Adventure” (CYOA) books were very popular. Unlike traditional books which are linearly read from start to finish, CYOA books allow you to decide how the story progresses by reading pages in a non-consecutive order. An example of a page from a CYOA book is shown below:
 
@@ -30,4 +30,4 @@ This project aims to create a GUI that can be used to read a CYOA book. This wil
 *	Confirming that the GUI functions as required through test cases.
 *	Exploring the flexibility of the GUI and how it could be applied to real scenarios.
 
-[test](Vending%20Machine/VendingMachine.html)
+[test](VendingMachine/VendingMachine.html)
