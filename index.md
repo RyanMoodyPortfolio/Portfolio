@@ -81,6 +81,14 @@ The vending machine can also be manually tested as shown below:
 
 Test No. | Test Procedure | Expected Result | Actual Result
 -------- | -------------- | --------------- | -------------
-1 | Visit the Vending Machine webpage | Vending Machine is displayed with Message = "Please insert coin(s) and make a selection" and Inserted = "£0.00" | As expected
+1 | Visit the Vending Machine webpage. | Vending Machine is displayed with Message = "Please insert coin(s) and make a selection" and Inserted = "£0.00". | As expected.
+2 | Click on the "Insert £1 Coin" button. | Inserted now shows as "£1.00". | As expected.
+3 | Click on the "Insert £1 Coin" button again. | Inserted now shows as "£2.00". | As expected.
+4 | Reload the Vending Machine webpage | Vending Machine is displayed with Message = "Please insert coin(s) and make a selection" and Inserted = "£0.00". | As expected.
+5 | Without inserting coins, click on the "Buy" button for chocolate. | The message "Cannot afford chocolate, please insert more coins!" is displayed. | As expected.
+6 | Without inserting coins, click on the "Buy" button for lemonade. | The message "Cannot afford lemonade, please insert more coins!" is displayed. | As expected.
+7 | Insert £1, and then attempt to buy chocolate. | The message "Enjoy your chocolate! Change = £0.30" is displayed, and Inserted resets to "£0.00". | As expected.
+8 | Insert £1, and then attempt to buy lemonade. | The message "Cannot afford lemonade, please insert more coins!" is displayed. | As expected.
+9 | Insert another £1, and then attempt to buy lemonade again. | The message "Enjoy your lemonade! Change = £0.80" is displayed, and Inserted resets to "£0.00". | As expected.
 
 _Note - the [chocolate](https://publicdomainvectors.org/en/free-clipart/Chocolate-candy/78781.html) and [lemonade](https://publicdomainvectors.org/en/free-clipart/Vector-drawing-of-lemonade-in-glass/3960.html) images are public domain._
