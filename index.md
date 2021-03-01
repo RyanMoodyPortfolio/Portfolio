@@ -1,3 +1,5 @@
+_Copyright Ryan Moody 2021_
+
 ### Welcome! Here are my portfolio projects that demonstrate my manual and automated software testing skills:
 
 # Project 1 - Flowchart Utility
