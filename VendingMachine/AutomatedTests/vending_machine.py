@@ -1,4 +1,4 @@
-"""Vending Machine Module - Copyright Ryan Moody 2021"""
+"""vending_machine.py - Copyright Ryan Moody 2021"""
 from web_interface import click_button
 from web_interface import get_text
 
