@@ -63,11 +63,11 @@ My project aimed to create a GUI that can be used to read a CYOA book. This invo
  
 My simple web-based vending machine allows the user to insert £1 coins and purchase either chocolate (costing £0.70) or lemonade (costing £1.20). The user is shown how much money they have inserted, and other messages based upon their interactions with the vending machine.
 
-I implemented my vending machine using HTML, Bootstrap, CSS and JavaScript
+I implemented my vending machine using HTML, Bootstrap, CSS and JavaScript.
 
 I validated my HTML & CSS using the W3C's validation services (see links above). 
 
-I improved the quality of my JavaScript code using [JSLint](https://jslint.com/)
+I improved the quality of my JavaScript code using [JSLint](https://jslint.com/).
 
 To verify that my Vending Machine was functioning correctly, I prepared a suite of automated tests using Python and Selenium WebDriver, and utilising the [Page Object Model](https://www.selenium.dev/documentation/en/guidelines_and_recommendations/page_object_models/) design pattern.
 
