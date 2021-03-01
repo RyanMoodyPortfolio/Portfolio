@@ -1,4 +1,4 @@
-"""Logger Module - Copyright Ryan Moody 2021"""
+"""Logger.py - Copyright Ryan Moody 2021"""
 import logging
 logging.basicConfig(level=logging.INFO)
 
