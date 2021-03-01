@@ -79,8 +79,8 @@ The output of the automated test suite can be seen below:
 
 The vending machine can also be manually tested as shown below:
 
-Test No. | Test Procedure | Expected Result | Actual Result | PASS/FAIL
--------- | -------------- | --------------- | ------------- | ---------
-1 | Visit the Vending Machine webpage | Vending Machine is displayed with Message = "Please insert coin(s) and make a selection" and Inserted = "£0.00" | As expected | PASS
+Test No. | Test Procedure | Expected Result | Actual Result
+-------- | -------------- | --------------- | -------------
+1 | Visit the Vending Machine webpage | Vending Machine is displayed with Message = "Please insert coin(s) and make a selection" and Inserted = "£0.00" | As expected
 
 _Note - the [chocolate](https://publicdomainvectors.org/en/free-clipart/Chocolate-candy/78781.html) and [lemonade](https://publicdomainvectors.org/en/free-clipart/Vector-drawing-of-lemonade-in-glass/3960.html) images are public domain._
