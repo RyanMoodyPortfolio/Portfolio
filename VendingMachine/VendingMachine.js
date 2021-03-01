@@ -1,3 +1,4 @@
+// VendingMachine.js - Copyright Ryan Moody 2021
 var insertedInPence = 0;
 
 // Adds a zero (if required) to display the given value in two digits
