@@ -1,4 +1,4 @@
-"""Web Interface Module - Copyright Ryan Moody 2021"""
+"""web_interface.py - Copyright Ryan Moody 2021"""
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.common.by import By
