@@ -45,6 +45,7 @@ My project aimed to create a GUI that can be used to read a CYOA book. This invo
 * Pylint
 * PyCharm
 * Selenium WebDriver
+* Page Object Model
 * Automated Testing
 * Functional Testing
 * Code linting/validation
@@ -65,7 +66,7 @@ I validated my HTML & CSS using the W3C's validation services (see links above).
 
 I improved the quality of my JavaScript code using [JSLint](https://jslint.com/)
 
-To verify that my Vending Machine was functioning correctly, I prepared a suite of automated tests using Python and Selenium WebDriver.
+To verify that my Vending Machine was functioning correctly, I prepared a suite of automated tests using Python and Selenium WebDriver, and utilising the [Page Object Model](https://www.selenium.dev/documentation/en/guidelines_and_recommendations/page_object_models/) design pattern.
 
 I wrote my Python code using PyCharm, and used Pylint to improve the quality of my Python code.
 
