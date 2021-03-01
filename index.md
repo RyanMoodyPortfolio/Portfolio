@@ -49,6 +49,7 @@ My project aimed to create a GUI that can be used to read a CYOA book. This invo
 * Selenium WebDriver
 * Page Object Model
 * Automated Testing
+* Manual Testing
 * Functional Testing
 * Code linting/validation
  
@@ -60,7 +61,7 @@ My project aimed to create a GUI that can be used to read a CYOA book. This invo
  
  **Description:**
  
-My simple web-based vending machine allows the user to insert coins and make a purchase.
+My simple web-based vending machine allows the user to insert £1 coins and purchase either chocolate (costing £0.70) or lemonade (costing £1.20). The user is shown how much money they have inserted, and other messages based upon their interactions with the vending machine.
 
 I implemented my vending machine using HTML, Bootstrap, CSS and JavaScript
 
@@ -75,5 +76,11 @@ I wrote my Python code using PyCharm, and used Pylint to improve the quality of 
 The output of the automated test suite can be seen below:
 
 ![Automated Test Suite Output](/images/VendingMachine2.png)
+
+The vending machine can also be manually tested as shown below:
+
+Test No. | Test Procedure | Expected Result | Actual Result | PASS/FAIL
+-------- | -------------- | --------------- | ------------- | ---------
+1 | Visit the Vending Machine webpage | Vending Machine is displayed with Message = "Please insert coin(s) and make a selection" and Inserted = "£0.00" | As expected | PASS
 
 _Note - the [chocolate](https://publicdomainvectors.org/en/free-clipart/Chocolate-candy/78781.html) and [lemonade](https://publicdomainvectors.org/en/free-clipart/Vector-drawing-of-lemonade-in-glass/3960.html) images are public domain._
