@@ -1,4 +1,4 @@
-"""Test Suite Module - Copyright Ryan Moody 2021"""
+"""test_suite.py - Copyright Ryan Moody 2021"""
 from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
 from vending_machine import VendingMachine
