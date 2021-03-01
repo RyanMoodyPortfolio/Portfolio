@@ -1,4 +1,4 @@
-Here are my portfolio projects that demonstrate my skills in manual and automated testing:
+## Welcome! Here are my portfolio projects that demonstrate my skills in manual and automated testing:
 
 # Project 1 - Flowchart Utility
 
